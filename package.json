@@ -1,0 +1,21 @@
+{
+  "name": "swd-character-sheet",
+  "version": "1.0.0",
+  "description": "A website to keep track of your characters information and stats for the star wars: the force and destiny rpg game.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "the",
+    "force",
+    "destiny",
+    "rpg",
+    "character",
+    "sheet"
+  ],
+  "author": "Ari Northage-Orr",
+  "license": "ISC"
+}
