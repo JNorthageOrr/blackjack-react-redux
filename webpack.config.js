@@ -1,12 +1,8 @@
 module.exports = {
-    entry: './server/index.js',
+    entry: './client/App.js',
     output: {
         filename: 'bundle.js',
-        path: './dist'
-    },
-    externals: {
-        'react': 'React',
-        'react-dom': 'ReactDom'
+        path: './client/dist'
     },
     devtool: 'source-map',
     module: {
