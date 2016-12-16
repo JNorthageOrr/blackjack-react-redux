@@ -1,20 +1,12 @@
 {
-  "name": "swd-character-sheet",
+  "name": "blackjack-react-hapi",
   "version": "1.0.0",
-  "description": "A website to keep track of your characters information and stats for the star wars: the force and destiny rpg game.",
+  "description": "An implementation of blackjack built using React Redux.",
   "main": "index.js",
   "scripts": {
     "start": "webpack --progress --colors --watch",
     "test": "test"
   },
-  "keywords": [
-    "star",
-    "wars",
-    "force",
-    "destiny",
-    "rpg",
-    "character"
-  ],
   "dependencies": {
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
@@ -36,7 +28,7 @@
     "style-loader": "^0.13.1",
     "webpack": "^1.13.3"
   },
-  "author": "Ari Northage-Orr",
+  "author": "Justin Northage-Orr & Ari Northage-Orr",
   "license": "ISC",
-  "repository": "ssh://git@bitbucket.org/arinorr/swd-character-sheet.git"
+  "repository": "ssh://git@bitbucket.org/jnorthageorr/blackjack-react-hapi.git"
 }
