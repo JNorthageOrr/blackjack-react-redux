@@ -22,7 +22,9 @@
     "good-console": "^6.3.1",
     "good-squeeze": "^5.0.1",
     "hapi": "^16.0.1",
-    "inert": "^4.0.3"
+    "inert": "^4.0.3",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",

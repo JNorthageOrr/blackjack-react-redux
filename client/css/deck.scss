@@ -1,0 +1,22 @@
+#deck {
+  display: inline-block;
+  height: 150px;
+  width: 100px;
+  display: none;
+}
+@media(max-width: 1200px){
+	#deck {
+	  display: inline-block;
+	  min-height: 150px;
+	  min-width: 100px;
+	  display: none;
+	}
+}
+@media(max-width: 992px){
+	#deck {
+	  display: inline-block;
+	  min-height: 150px;
+	  min-width: 100px;
+	  display: none;
+	}
+}

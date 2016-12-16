@@ -1,12 +1,21 @@
+
 import React from 'react';
-import ReactDOM from 'react-dom';
+import {render} from 'react-dom';
+import { Provider } from 'react-redux';
+import GameBoard from './containers/gameboard';
+import createStore from './create-store';
+
+const store = createStore();
 
 class App extends React.Component {
-    render() {
-        return (
-            <h1>Hello React!</h1>
+    render () {
+        return(
+            <Provider store={ this.props.store }>
+                <GameBoard />
+            </Provider>
         );
     }
 }
 
-ReactDOM.render(<App />, document.getElementById('root'));
+render(<App store={store} />, document.getElementById('root'));
+
