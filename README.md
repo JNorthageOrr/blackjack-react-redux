@@ -2,6 +2,8 @@
 
 This is an implementation of the card game Blackjack programmed using React Redux. It was created by myself and Ari Northage-Orr (@arinorr).
 
+See it live: [React Redux BlackJack](http://blackjack.jnorr.com)
+
 #Install Instructions:
 
 Prerequisites:
